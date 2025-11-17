@@ -15,7 +15,7 @@ Clustering-free methods identify abundance changes without relying on pre-define
 ## 🗂️ Available Methods
 
 | Method | Core Model | Language | Multi-group | Key Feature |
-|--------|---------------|-----------------|----------|
+|--------|------------|----------|-------------|-------------|
 | [Milo](https://www.nature.com/articles/s41587-021-01033-z) | k-NN Graph + NB-GLM | R/Python | ✅ | Overlapping neighborhoods on k-NN graph for high-resolution local changes |
 | [Cydar](https://www.nature.com/articles/nmeth.4295) | Hyperspheres + NB-GLM | R | ✅ | Fixed-radius hyperspheres for density-based abundance analysis |
 | [DA-seq](https://www.pnas.org/doi/abs/10.1073/pnas.2100293118) | Multi-scale DA Scoring + Logistic Regression | R | ❌ | Multi-scale differential abundance scoring at single-cell level |
