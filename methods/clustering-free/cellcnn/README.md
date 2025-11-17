@@ -13,7 +13,6 @@ CellCnn uses convolutional neural networks in a multi-instance learning framewor
 ## 🔧 Technical Implementation
 - **Language**: Python
 - **Core Model**: Convolutional Neural Networks
-- **Multi-group**: ❌ Binary comparisons only
 - **Dependencies**: cellcnn, tensorflow
 
 
