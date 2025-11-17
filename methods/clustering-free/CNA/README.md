@@ -33,7 +33,8 @@ cna does not require a pre-specified transcriptional structure such as a cluster
 ### PyPI 
 ```bash
 pip install cna
-
+```
+### R
 ```r
 library(devtools)
 install_github('korsunskylab/rcna')
