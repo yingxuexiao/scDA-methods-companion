@@ -30,7 +30,7 @@ MrVI uses hierarchical variational autoencoders with multi-head attention to mod
 - **GitHub**: https://scvi-tools.readthedocs.io/en/latest/user_guide/models/mrvi.html
 - **Publication**: [Nature Methods](https://www.nature.com/articles/s41592-025-02808-x)
 
-##🚨 This standalone package will receive no further updates or support.Use instead the implementation in the scvi-tools package:
+## 🚨 This standalone package will receive no further updates or support.Use instead the implementation in the scvi-tools package:
 
 ```
 !pip install --quiet scvi-colab
