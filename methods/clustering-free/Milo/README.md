@@ -1,4 +1,3 @@
-cat > Milo/README.md << 'EOF'
 # Milo: Differential abundance testing on KNN graphs
 
 ## 📋 Overview
@@ -28,7 +27,7 @@ Milo identifies differentially abundant populations of cells by defining overlap
 ## 🔗 Official Resources
 - **GitHub**: https://github.com/MarioniLab/miloR
 - **Publication**: [Nature Biotechnology](https://www.nature.com/articles/s41587-021-01033-z)
-EOF
+
 
 ## 🔗 Installation
 ### Stable Release (Bioconductor)
