@@ -13,7 +13,6 @@ Scissor identifies phenotype-associated cell subpopulations by linking single-ce
 ## 🔧 Technical Implementation
 - **Language**: R
 - **Core Model**: Regularized Sparse Regression
-- **Multi-group**: ❌ Binary comparisons only
 - **Dependencies**: Scissor, glmnet
 
 ## ⚙️ Key Parameters
