@@ -26,8 +26,8 @@ Clustering-based methods operate by first grouping cells into discrete clusters 
 | [scellpam](https://link.springer.com/article/10.1186/s12859-023-05569-6) | Negative Binomial | R | ✅ | PAM clustering integration |
 | [DirichletReg](https://www.researchgate.net/profile/Marco-Maier-4/publication/260191096_DirichletReg_Dirichlet_Regression_for_Compositional_Data_in_R/links/02e7e5300fd1412f55000000/DirichletReg-Dirichlet-Regression-for-Compositional-Data-in-R.pdf) | Dirichlet | R | ✅ | Dirichlet regression framework |
 | [Citrus](https://www.pnas.org/doi/abs/10.1073/pnas.1408792111) | Regularized Regression | R | ✅ | High-dimensional feature selection |
-| [TreecorTreat](https://www.biorxiv.org/content/10.1101/2021.10.27.466024v1.full)| 
-| [CTDS](https://www.frontiersin.org/journals/genetics/articles/10.3389/fgene.2022.855076/full)|Tree-based Correlation $ regression model | R | ✅ | Hierarchical correlation screening | 
+| [TreecorTreat](https://www.biorxiv.org/content/10.1101/2021.10.27.466024v1.full)| Tree-based Correlation | R | ✅ | Hierarchical correlation screening |
+| [CTDS](https://www.frontiersin.org/journals/genetics/articles/10.3389/fgene.2022.855076/full)|Entropy-based Metric | R | ✅ | Cellular diversity and dynamics quantification |
 | [ELVAR](https://www.nature.com/articles/s41467-023-39017-z)| NB-GLM | R | ✅ | Attribute-aware community detection |
 | [clustermap](https://academic.oup.com/bioinformatics/article/35/17/3038/5289328?login=false)| Tree Pruning | Python | ✅ | Multi-sample cluster alignment |
 | [scPopCorn](https://www.sciencedirect.com/science/article/pii/S2405471219301887)|Personalized PageRank | Python | ✅ | Cross-sample cell-to-cell matching |
