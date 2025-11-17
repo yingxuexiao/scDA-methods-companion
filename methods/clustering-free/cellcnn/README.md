@@ -29,12 +29,12 @@ CellCnn uses convolutional neural networks in a multi-instance learning framewor
 
 ### PyPI
 ```bash
-Clone the CellCnn repository and checkout the python3 branch:
+#Clone the CellCnn repository and checkout the python3 branch:
 git clone -b python3 https://github.com/eiriniar/CellCnn.git
-Go to the CellCnn root directory:
+#Go to the CellCnn root directory:
 cd CellCnn
-Install CellCnn and its dependencies:
+#Install CellCnn and its dependencies:
 pipenv install
-The above steps have to be performed only once. Then, each time you want to perform a CellCnn analysis, go to the CellCnn root directory and activate the pipenv virtual environment by running:
+#The above steps have to be performed only once. Then, each time you want to perform a CellCnn analysis, go to the CellCnn root directory and activate the pipenv virtual environment by running:
 
 pipenv shell
