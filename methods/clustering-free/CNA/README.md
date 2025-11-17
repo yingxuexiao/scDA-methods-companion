@@ -1,5 +1,5 @@
 
-# CNA: Covarying neighborhood analysis is a method for finding structure in- and conducting association analysis with multi-sample single-cell datasets.
+# CNA: Covarying neighborhood analysis is a method for finding structure in- and conducting association analysis with multi-sample single-cell datasets
 
 ## 📋 Overview
 cna does not require a pre-specified transcriptional structure such as a clustering of the cells in the dataset. It aims instead to flexibly identify differences of all kinds between samples. cna is fast, does not require parameter tuning, produces measures of statistical significance for its association analyses, and allows for covariate correction.
