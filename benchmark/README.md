@@ -14,53 +14,47 @@ Methods were selected based on the following rigorous criteria:
 
 Criteria
 ✅ Method must be currently functional and maintained	
+
 ✅ Specifically designed for single-cell data analysis	
+
 ✅ Primary intent must be differential abundance analysis	
 
 🚫 Exclusion Criteria
 Several methods were excluded from our benchmark:
 
-❌ scellpam: Primarily a clustering method, not designed for DA analysis
+scellpam: Primarily a clustering method, not designed for DA analysis
 
-❌ TascCODA: Requires construction of cell-type hierarchy trees, dependent on well-defined cell-type relationships
+TascCODA: Requires construction of cell-type hierarchy trees, dependent on well-defined cell-type relationships
 
-❌ Other exclusions: Methods that were deprecated, not maintained, or primarily designed for other analytical purposes
+Other exclusions: Methods that were deprecated, not maintained, or primarily designed for other analytical purposes
 
-📁 Repository Structure
-benchmark/
-├── 📂 pipeline/
-│   ├── evaluation_pipeline/      # Main evaluation workflows
-│   
-├── 📂 data/
-│   ├── simulated_datasets/       # Synthetic data for controlled evaluation
-│   └── real_datasets/           # Biological datasets for validation
-├── 📂 results/                  # Pre-computed benchmark results
-└── 📂 config/                   # Configuration files
+
 
 ⚠️ Important Notes & Limitations
-📝 Disclaimer: This benchmark provides an initial comprehensive evaluation of DA methods, but several limitations should be considered:
+
+This benchmark provides an initial comprehensive evaluation of DA methods, but several limitations should be considered:
 
 🔬 Current Limitations
-📏 Evaluation Depth: The current analysis provides a broad overview rather than deep, method-specific optimization
 
-🔧 Parameter Sensitivity: Limited exploration of parameter spaces for each method
+1. Evaluation Depth: The current analysis provides a broad overview rather than deep, method-specific optimization
 
-🌐 Dataset Scope: Evaluation on a curated but not exhaustive set of biological scenarios
+2. Parameter Sensitivity: Limited exploration of parameter spaces for each method
 
-⏱️ Computational Resources: Performance metrics may vary with different computational environments
+3. Dataset Scope: Evaluation on a curated but not exhaustive set of biological scenarios
+
+4. Computational Resources: Performance metrics may vary with different computational environments
 
 
 
-🎯 Primary Goals
-This benchmark aims to:
+🎯 This benchmark aims to:
 
-Help researchers select appropriate DA methods for their specific biological questions
+1. Help researchers select appropriate DA methods for their specific biological questions
 
-Provide transparent and reproducible evaluation workflows
+2. Provide transparent and reproducible evaluation workflows
 
-Highlight method strengths and weaknesses across different scenarios
+3. Highlight method strengths and weaknesses across different scenarios
 
-Serve as a foundation for future, more specialized benchmarks
+4. Serve as a foundation for future, more specialized benchmarks
 
 
 ⭐ If you find this benchmark useful, please consider starring this repository!
