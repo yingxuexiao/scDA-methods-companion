@@ -1,14 +1,36 @@
 # Pipeline for Differential Abundance (DA) Method Benchmarking
 
-This directory contains the pipeline scripts and Docker configuration files for running differential abundance (DA) methods on simulated and real datasets. The pipeline is designed to be executed within a Docker container to ensure a reproducible environment for evaluating DA methods.
+## 📋 Overview
 
-## 🛠️ **Pipeline Overview**
+This repository provides a comprehensive benchmarking pipeline for evaluating Differential Abundance (DA) methods on single-cell RNA sequencing data. The pipeline systematically compares multiple DA methods across both simulated and real datasets to assess their performance in detecting cell type composition changes.
 
-The pipeline consists of several stages:
+The pipeline employs a **dual-environment architecture** to handle the diverse computational requirements of R-based and Python-based methods:
 
-1. **Data Preprocessing**: Raw data is processed to ensure compatibility with DA methods (normalization, feature selection, etc.).
-2. **DA Method Execution**: Different DA methods are applied to the processed data.
-3. **Performance Evaluation**: The output of DA methods is evaluated using various metrics (e.g., precision, recall, F1-score).
+### 🐳 **Docker Environment (R Methods)**
+- **Purpose**: Execute R-based DA methods in an isolated, reproducible environment
+- **Base Image**: `r-based:4.4.0` with comprehensive R package ecosystem
+- **Included R Methods**:
+  - `Milo`
+  - `Dawnn`
+  - `DCATS`
+  - `CTDS`
+  - `CNA`
+  - `Louvain+GLM`
+  - `DirichletReg`
+  - `ELVAR`
+  - `sccomp`
+  - `DA-seq`
+  - `cydar`
+  - `propeller`
+  
 
-The pipeline is designed to be run inside a Docker container, ensuring a consistent environment for the analyses.
+### 🐍 **Conda Environments (Python Methods)**
+- **Purpose**: Run Python-based DA methods in separate, optimized environments
+- **Rationale**: Python methods often have conflicting dependencies and require different Python versions
+- **Managed Environments**:
+  - `scCODA` Python version: 3.10.19
+  - `MELD` Python version: 3.10.19  
+  - `CNA` Python version: 3.8.20
+  - `scanpro` Python version: 3.10.19
+  
 
