@@ -11,19 +11,19 @@ This section systematically compiles and documents all 28 differential abundance
 
 | Directory | Description |
 |-----------|-------------|
-| **[`methods/`](1_Methods Catelog/)** | Root directory containing all method implementations and documentation |
-| **[`clustering-free/`](1_Methods Catelog/clustering-free/)** | Methods operating at single-cell or neighborhood resolution without relying on pre-clustered cell types (e.g., Milo, CNA, DA-seq) |
-| **[`clustering-based/`](1_Methods Catelog/clustering-based/)** | Methods that require predefined cell type annotations and analyze differential abundance at the cell-type level (e.g., scCODA, DCATS, propeller) |
+| **[`methods`](1_Methods%20Catelog/)** | Root directory containing all method implementations and documentation |
+| **[`clustering-free`](1_Methods%20Catelog/clustering-free/)** | Methods operating at single-cell or neighborhood resolution without relying on pre-clustered cell types (e.g., Milo, CNA, DA-seq) |
+| **[`clustering-based`](1_Methods%20Catelog/clustering-based/)** | Methods that require predefined cell type annotations and analyze differential abundance at the cell-type level (e.g., scCODA, DCATS, propeller) |
 
 ### 2. **Benchmark Framework** - comprehensive Evaluation Suite
 This section contains the complete experimental framework for our comprehensive performance assessment. It enables the reproduction of all analyses presented in the manuscript, from data preprocessing to final performance metrics.
 
 | Directory | Description |
 |-----------|-------------|
-| **[`benchmark/`](2_Benchmark Framework/)** | Root directory for the entire benchmarking workflow |
-| **[`chunk1_analysis_pipeline/`](2_Benchmark Framework/chunk1_analysis_pipeline/)** | Core execution engine: Docker-based pipeline for R methods and automation scripts for Python methods, ensuring reproducible execution across all evaluated tools |
-| **[`chunk2_real_datasets/`](2_Benchmark Framework/chunk2_real_datasets/)** | Processing pipelines for 29 curated real-world scRNA-seq datasets, including standardized preprocessing, quality control, and annotation procedures |
-| **[`chunk3_simulation_datasets/`](2_Benchmark Framework/chunk3_simulation_datasets/)** | Code for generating synthetic benchmark data, including scalability test series and pattern-specific simulations with known ground truth |
-| **[`chunk4_usability/`](2_Benchmark Framework/chunk4_usability/)** | Implementation of the systematic usability assessment framework based on 27 evaluation criteria covering code quality, documentation, and maintenance |
-| **[`chunk5_accuracy/`](2_Benchmark Framework/chunk5_accuracy/)** | Performance metric calculators and result aggregation scripts for evaluating method accuracy across all benchmark datasets |
+| **[`benchmark`](2_Benchmark%20Framework/)** | Root directory for the entire benchmarking workflow |
+| **[`chunk1_analysis_pipeline`](2_Benchmark%20Framework/chunk1_analysis_pipeline/)** | Core execution engine: Docker-based pipeline for R methods and automation scripts for Python methods, ensuring reproducible execution across all evaluated tools |
+| **[`chunk2_real_datasets`](2_Benchmark%20Framework/chunk2_real_datasets/)** | Processing pipelines for 29 curated real-world scRNA-seq datasets, including standardized preprocessing, quality control, and annotation procedures |
+| **[`chunk3_simulation_datasets`](2_Benchmark%20Framework/chunk3_simulation_datasets/)** | Code for generating synthetic benchmark data, including scalability test series and pattern-specific simulations with known ground truth |
+| **[`chunk4_usability`](2_Benchmark%20Framework/chunk4_usability/)** | Implementation of the systematic usability assessment framework based on 27 evaluation criteria covering code quality, documentation, and maintenance |
+| **[`chunk5_accuracy`](2_Benchmark%20Framework/chunk5_accuracy/)** | Performance metric calculators and result aggregation scripts for evaluating method accuracy across all benchmark datasets |
 
