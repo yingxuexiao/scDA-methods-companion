@@ -25,9 +25,8 @@ This benchmark provides an initial comprehensive evaluation of DA methods, but s
 ### 🔬 **Current Limitations**
 
 1. **Evaluation Depth**: The current analysis provides a broad overview rather than deep, method-specific optimization
-2. **Parameter Sensitivity**: Limited exploration of parameter spaces for each method
-3. **Dataset Scope**: Evaluation on a curated but not exhaustive set of biological scenarios
-4. **Computational Resources**: Performance metrics may vary with different computational environments
+2. **Dataset Scope**: Evaluation on a curated but not exhaustive set of biological scenarios
+3. **Computational Resources**: Performance metrics may vary with different computational environments
 
 ---
 
