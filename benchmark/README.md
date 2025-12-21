@@ -8,27 +8,13 @@ This repository contains the comprehensive benchmark implementation for evaluati
 
 ## 🎯 **Evaluated Methods**
 
-We systematically evaluated **16 state-of-the-art DA methods** for single-cell data analysis. The complete list of methods and their implementations are detailed in our publication.
+We systematically evaluated **13 state-of-the-art DA methods** for single-cell data analysis. The complete list of methods and their implementations are detailed in our publication.
 
 ---
 
 ## 🔍 **Method Selection Criteria**
 
 Methods were selected based on the following rigorous criteria:
-
-### ✅ **Criteria**
-
-- **Method must be currently functional and maintained**
-- **Specifically designed for single-cell data analysis**
-- **Primary intent must be differential abundance analysis**
-
-### 🚫 **Exclusion Criteria**
-
-Several methods were excluded from our benchmark:
-
-- **scellpam**: Primarily a clustering method, not designed for DA analysis
-- **TascCODA**: Requires construction of cell-type hierarchy trees, dependent on well-defined cell-type relationships
-- **Other exclusions**: Methods that were deprecated, not maintained, or primarily designed for other analytical purposes
 
 ---
 
@@ -54,8 +40,5 @@ This benchmark aims to:
 - Highlight method **strengths** and **weaknesses** across different scenarios
 - Serve as a foundation for future, more **specialized benchmarks**
 
----
-
-⭐ **If you find this benchmark useful, please consider starring this repository!**
 
 
