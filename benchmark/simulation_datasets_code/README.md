@@ -1,6 +1,6 @@
 # Simulated Data for DA Method Benchmarking
 
-This directory contains simulated datasets created to benchmark various differential abundance (DA) methods for single-cell RNA-seq data. These datasets allow for controlled experimentation with different scenarios, such as varying cell proportions, noise levels, and gene expression gradients.
+This directory contains simulated datasets created to benchmark various differential abundance (DA) methods for single-cell RNA-seq data. 
 
 ## 🛠️ **Simulated Scenarios**
 
@@ -12,10 +12,7 @@ This directory contains simulated datasets created to benchmark various differen
 - **Description**: Simulate datasets with different levels of gene expression variability.
 - **Objective**: Assess how well DA methods can detect differentially expressed genes.
 
-### 3. **Scenario 3: Noise and Data Sparsity**
-- **Description**: Simulate datasets with added noise or sparse gene expression to evaluate the robustness of DA methods under less-than-ideal conditions.
-- **Objective**: Determine the impact of noisy data on DA method performance.
-
-### 4. **Scenario 4: Mixed Cell Types**
-- **Description**: Generate datasets where cell types overlap or are difficult to separate.
-- **Objective**: Test the performance of DA methods on datasets with challenging cell-type separability.
+### 3. **Scenario 3: Clustering-free DA Analysis**
+- **Description**: This dataset uses a simulation based on a dataset from Yi Haidong's paper, focusing on clustering-free DA analysis.
+**Citation:**
+Yi, H., et al. (2024). *Benchmarking differential abundance methods for finding condition-specific prototypical cells in multi-sample single-cell datasets*. *Genome Biol*, 10.1186/s13059-023-03143-0. [DOI link](https://doi.org/10.1186/s13059-023-03143-0)
