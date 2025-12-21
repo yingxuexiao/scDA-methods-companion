@@ -2,7 +2,7 @@
 
 ## 📊 **Overview**
 
-This repository contains the comprehensive benchmark implementation for evaluating **16 differential abundance (DA)** analysis methods on single-cell RNA sequencing data, as described in our publication. The benchmark includes evaluation code, workflows, simulated datasets, real datasets, and metrics computation for thorough method assessment.
+This repository contains the comprehensive benchmark implementation for evaluating **13 differential abundance (DA)** analysis methods on single-cell RNA sequencing data, as described in our publication. The benchmark includes evaluation code, workflows, simulated datasets, real datasets, and metrics computation for thorough method assessment.
 
 ---
 
