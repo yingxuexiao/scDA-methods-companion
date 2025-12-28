@@ -13,7 +13,6 @@ The pipeline employs a **dual-environment architecture** to handle the diverse c
   - `Milo`
   - `Dawnn`
   - `DCATS`
-  - `CTDS`
   - `CNA`
   - `Louvain+GLM`
   - `DirichletReg`

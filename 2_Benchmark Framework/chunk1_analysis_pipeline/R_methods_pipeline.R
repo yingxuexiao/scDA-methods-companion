@@ -95,11 +95,9 @@ seurat_paths <- sapply(names(dataset_files), function(x) dataset_files[[x]]$seur
 sce_paths <- sapply(names(dataset_files), function(x) dataset_files[[x]]$sce, simplify = FALSE)
 
 method_list <- c(
-  "DAwnn"
+  "DAwnn",
   "milo",
-  "ELVAR"
   "DCATS",
-  "CTDS",
   "cna",
   "cydar",
   "Louvain",
@@ -112,9 +110,7 @@ method_list <- c(
 method_data_format <- c(
   milo = "SingleCellExperiment",
   DCATS = "Seurat",
-  CTDS = "Seurat",
   cna = "Seurat",
-  ELVAR = "Seurat",
   cydar = "SingleCellExperiment",
   DAwnn = "Seurat",
   Louvain = "SingleCellExperiment",
@@ -132,7 +128,6 @@ method_keep_tmp <- c(
   DCATS=FALSE,
   CTDS=FALSE,
   cna=FALSE,
-  ELVAR=FALSE,
   cydar=FALSE,
   Louvain=FALSE,
   DirichletReg=FALSE,

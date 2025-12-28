@@ -7,7 +7,7 @@ This repository hosts the complete implementation, documentation, and benchmarki
 ## 📁 Repository Structure
 
 ### 1. **Methods Catalog** - Comprehensive Collection of DA Methods
-This section systematically compiles and documents all 28 differential abundance analysis methods evaluated in our study. Each method is accompanied by implementation details, algorithm descriptions, and example usage code, providing a valuable reference for researchers seeking to understand or apply these tools.
+This section systematically compiles and documents all 27 differential abundance analysis methods evaluated in our study. Each method is accompanied by implementation details, algorithm descriptions, and example usage code, providing a valuable reference for researchers seeking to understand or apply these tools.
 
 | Directory | Description |
 |-----------|-------------|

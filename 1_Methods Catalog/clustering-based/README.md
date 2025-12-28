@@ -27,9 +27,8 @@ Clustering-based methods operate by first grouping cells into discrete clusters 
 | [DirichletReg](dirichletReg/README.md) | Dirichlet | R | ✅ | Dirichlet regression framework |
 | [Citrus](CITRUS/README.md) | Regularized Regression | R | ✅ | High-dimensional feature selection |
 | [TreecorTreat](TreeCorTreat/README.md)| Tree-based Correlation | R | ✅ | Hierarchical correlation screening |
-| [CTDS](CTDS/README.md)|Entropy-based Metric | R | ✅ | Cellular diversity and dynamics quantification |
 | [ELVAR](RLVAR/README.md)| NB-GLM | R | ✅ | Attribute-aware community detection |
-| [clustermap](clustermap/README.md)| Tree Pruning | Python | ✅ | Multi-sample cluster alignment |
+| [Clustermap](Clustermap/README.md)| Tree Pruning | Python | ✅ | Multi-sample cluster alignment |
 | [scPopCorn](scPopCorn/README.md)|Personalized PageRank | Python | ✅ | Cross-sample cell-to-cell matching |
 | [Louvain+GLM](Louvain+GLM/README.md)|NB-GLM | R | ✅ | Graph-based clustering with GLM testing |
 ## 🎯 When to Use Clustering-Based Methods?
