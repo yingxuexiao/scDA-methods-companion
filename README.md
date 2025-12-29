@@ -12,8 +12,8 @@ This section systematically compiles and documents all 27 differential abundance
 | Directory | Description |
 |-----------|-------------|
 | **[`methods`](1_Methods%20Catalog/)** | Root directory containing all method implementations and documentation |
-| **[`clustering-free`](1_Methods%20Catalog/clustering-free/)** | Methods operating at single-cell or neighborhood resolution without relying on pre-clustered cell types (e.g., Milo, CNA, DA-seq) |
-| **[`clustering-based`](1_Methods%20Catalog/clustering-based/)** | Methods that require predefined cell type annotations and analyze differential abundance at the cell-type level (e.g., scCODA, DCATS, propeller) |
+| **[`clustering_free`](1_Methods%20Catalog/clustering-free/)** | Methods operating at single-cell or neighborhood resolution without relying on pre-clustered cell types (e.g., Milo, CNA, DA-seq) |
+| **[`clustering_based`](1_Methods%20Catalog/clustering-based/)** | Methods that require predefined cell type annotations and analyze differential abundance at the cell-type level (e.g., scCODA, DCATS, propeller) |
 
 ### 2. **Benchmark Framework** - comprehensive Evaluation Suite
 This section contains the complete experimental framework for our comprehensive performance assessment. It enables the reproduction of all analyses presented in the manuscript, from data preprocessing to final performance metrics.
